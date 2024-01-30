@@ -1,4 +1,8 @@
 # Aulas
 Repositório para armazenar anotações e exercícios.
 
-## teste
+## Curso em Video
+Curso de JavaScript: [Teste][1]
+
+## Referências
+[1]: https://youtu.be/1-w1RfGIov4?si=mBXrlIbHnHyLi3cZ "Curso de JavaScript"
