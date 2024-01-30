@@ -1,0 +1,55 @@
+
+Identificadores
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível usar letras ou números
+- É possível usar acentos e símbolos
+- Não podem conter espaços (normalmente utilizamos "_" no lugar)
+- Não poder ser palavras reservadas
+
+Dicas
+- Maiúsculas e minúsculas fazem diferença
+- Tente escolher nomes coerentes para as variáveis
+- Evite se tornar um "Programador alfabeto" ou "Programador contador"!
+
+##################################################################################################################
+
+Palavras Reservadas
+var - Variável
+let - Variável
+null - Valor nulo
+
+##################################################################################################################
+Tipos de Dados
+
+Comandos úteis
+typeof: Verifica o tipo do dado
+
+Tipos primitivos primordiais: number, string, boolean. 
+
+number
+Engloba todos os números
+- Números inteiros: 5, 18, -12...
+- Números reais (ponto flutuante): 0.5, -15.9, 3.14, 8.0 ...
+- Infinity
+- NaN
+
+string
+- "Bacon"
+- 'JavaScript'
+- `- batatA`
+
+boolean
+- true
+- false
+
+undefined
+
+object
+- Array
+- null
+
+function
+É um tipo primitivo na linguagem JavaScript
+
+##################################################################################################################

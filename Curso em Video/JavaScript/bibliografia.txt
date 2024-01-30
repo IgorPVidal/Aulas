@@ -1,0 +1,17 @@
+Bibliografia
+
+JavaScript: O Guia Definitivo 
+	| por David Flanagan (Autor), João Eduardo Nóbrega Tortello (Tradutor), Luciana Nedel 
+
+JavaScript - Guia do Programador: Guia Completo das Funcionalidades de Linguagem JavaScript 
+	| por Maurício Samy Silva (Autor) 
+
+Mozilla JavaScript Reference Guide 
+https://developer.mozilla.org/pt-BR/
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript 
+	| por Mozilla (empresa que criou a linguagem)
+
+Ecma Language Specification 
+https://ecma-international.org/
+https://ecma-international.org/publications-and-standards/standards/ecma-262/
+	| por Ecma (padronização do JavaScript)
