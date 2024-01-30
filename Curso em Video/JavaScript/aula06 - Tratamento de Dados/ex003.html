@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+    <style> 
+        body {
+            background-color: rgb(58, 97, 97);
+            color: wheat; 
+            font: normal 50pt 'wingdings';
+        }
+        h1 {
+            color: aqua;
+            font: normal 40pt 'Comic Sans MS';
+        }
+        p {
+            color: orange;
+            font: normal 20pt 'Papyrus';
+        }
+    </style>
+</head>
+<body>
+    <h1>Somatron 5000</h1> 
+    <p>Faz soma, se pá.</p> 
+    7
+    <script> 
+        var n1 = window.prompt('Digite um número: ') // string
+        var n2 = window.prompt('Digite outro número: ') // string
+        // Aqui ocorre uma concatenação de duas string. Pois o prompt retorna uma string.
+        var soma = n1 + n2 // string + string 
+        window.alert('A soma dos valores não é ' + soma + '!!!\n\nD:')
+        // Convertendo as strings em números de ponto flutuante (float)
+        f1 = Number.parseFloat(n1) // float
+        f2 = Number(n2) // Dessa forma, você está pedindo para o próprio JavaScript "decidir" o tipo do número
+        // Convertendo as strings em números inteiros
+        n1 = Number.parseInt(n1) // int
+        n2 = Number.parseInt(n2) // int
+        soma = n1 + n2 // int + int
+        window.alert(`A soma entre os valores ${n1} e ${n2} é: ${soma} \n\n:D`)
+        window.alert(':P Espero que não seja um número de ponto flutuante')
+        soma = f1 + f2 // float + float
+        window.alert(`Por via das dúvidas,\nA soma entre os valores ${f1} e ${f2} é: ${soma} \n\n:D \nSe era, agora deve ter dado certo!`)
+
+
+    </script>
+</body>
+</html>

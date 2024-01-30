@@ -1,0 +1,42 @@
+Number + Number - Soma
+String + String - Concatenação
+
+###########################################################################################################################
+String
+
+Dada uma variável "s" que contém uma String:
+- s.length - Retorna o número de caracteres.
+- s.toUpperCase - Converte em letras maiúsculas.
+- s.toLowerCase - Converte em letras minúsculas.
+
+Considerando "s1" como uma "substring" qualquer que está contida em "s".
+Considerando "s2" como uma String qualquer.
+- s.replace(s1,s2) - A primeira ocorrência de "s1" dentro de "s" será substituída por "s2".
+
+Usando Template String para inserir variáveis dentro da String.
+var alimento = 'bacon'
+var frase = `Eu gosto de ${alimento}` // ${} é o "placeholder"
+frase: 'Eu gosto de bacon'
+
+###########################################################################################################################
+Number
+
+Dada uma variável "n" que contém um Number.
+Considerando "x" como um valor inteiro qualquer.
+- n.toFixed(x) - Retorna uma String com as "x" casas decimais.
+- n.toFixed(x).replace('.', ',') - Utilizando ".replace()" na String, substitui o ponto pela vírgula, como é mais usado no Brasil!
+
+Representando o número localizado em uma moeda.
+- n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+
+###########################################################################################################################
+Conversões de Tipo
+
+Number:
+- Number.parseInt(n) - Retorna a variável "n" convertida em um inteiro. Também funciona apenas parseInt(n).
+- Number.parseFloat(n) -  Retorna a variável "n" convertida em um float.  Também funciona apenas parseFloat(n).
+- Number(n) - O próprio JavaScript decide qual o tipo de Number da variável "n".
+
+String:
+- String(n) - Retorna a variável "n" convertida em uma string.
+- n.toString() - Também retorna a variável "n" convertida em uma string.
