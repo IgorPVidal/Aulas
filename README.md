@@ -5,4 +5,4 @@ Repositório para armazenar anotações e exercícios.
 * [Curso de JavaScript][1]
 
 <!-- Referências -->
-[1]: https://youtu.be/1-w1RfGIov4?si=mBXrlIbHnHyLi3cZ "Curso de JavaScript"
+[1]: https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&pp=iAQB "Curso de JavaScript"
