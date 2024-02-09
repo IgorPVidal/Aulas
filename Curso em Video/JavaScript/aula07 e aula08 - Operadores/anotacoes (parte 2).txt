@@ -1,0 +1,70 @@
+Operadores Relacionais
+
+Toda expressão que utiliza um operador relacional tem como resultado um valor booleano
+que indica se a expressão é verdadeira ou falsa.
+
+>  - Maior que
+<  - Menor que
+>= - Maior ou igual
+<= - Menos ou igual
+== - Igual
+=== - Operador de intentidade ou operador de igualdade restrita
+!= - Diferente
+!== - Desigual restrito
+
+
+Atenção!
+5 == 5 -> true
+5 == '5' -> true
+O JavaScript considera que os valore sejam iguais mesmo que sejam de tipos diferentes.
+Para testar se os valores são idênticos, incluindo mesmo tipo, pode-se usar o operador
+de igualdade restrita (===). Esse operador confere se é o mesmo valor e também o mesmo tipo.
+5 === '5' -> false
+5 === 5 -> true
+
+
+Operadores Lógicos
+
+!  - Negação (não)
+&& - Conjunção (e)
+|| - Disjunção (ou)
+
+
+! transforma true em false e vice-versa.
+! true -> false
+! false -> true
+
+&& retorna true se estiver entre expressões true. Retorna false caso contrário.
+true && true -> true
+true && false -> false
+false && true -> false
+false && false -> false
+
+|| retorna true se estiver entre alguma expressão true. Retorna false caso contrário.
+true || true -> true
+true || false -> true
+false || true -> true
+false || false -> false
+
+Em uma expressão, primeiro são feitos os operadores aritméticos, depois os relacionais
+e depois os lógicos:
+5 > 8 || 8 % 2 == 0
+5 > 8 || 0 == 0
+false || true
+true
+
+
+Ordem de precedêcia:
+(1) Operadores Aritméticos: () >> ** >> * == / == % >> + == -
+(2) Operadores Relacionais: Leitura da esquerda para a direita na expressão
+(3) Operadores Lógicos: ! >> && >> ||
+
+
+Operador Ternário
+
+É composto por dois símbolos que aparecem na mesma expressão "?" e ":".
+Se chama ternário porque tem 3 partes (! é um operador unário e && é um operador binário).
+[bloco de teste lógico] ? [bloco true] : [bloco false]
+
+Ex: media >= 6.0 ? 'Aprovado' : 'Reprovado'
+
