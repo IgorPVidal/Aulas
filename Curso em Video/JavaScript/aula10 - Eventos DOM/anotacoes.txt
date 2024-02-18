@@ -1,0 +1,24 @@
+Eventos de Mouse
+- mouseenter: Dispara um envento quando o mouse entra no elemento.
+- mousemove: Enquanto estiver movendo dentro do elemento, dispara várias vezes o evento.
+- mousedown: Quando pressiona o clique do mouse.
+- mouseup: Quando solta o clique do mouse.
+- click: Quando executa o movimento de clique inteiro.
+- mouseout: Quando o mouse sai do elemento. 
+Existem vários outros. Por exemplo, onmouseleave faz praticamente a mesma coisa que onmouseout, 
+mas com a diferença que dispara o evento também nos elementos filhos do elemento selecionado.
+
+Event Reference:
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+Funções em JavaScript
+function [nome]([param]){
+	[Bloco de Código]
+}
+
+Para conferir erros que o JavaScript informa, podemos verificar o Console da aba de ferramentas de desenvolvedor do navegador.
+Para acessar essa aba, podemos:
+- No navegador, clicar com botão direito -> Clicar em Inspecionar -> Lá terá o Console e outras ferramentas.
+- Apertar F12 no navegador.
+
+

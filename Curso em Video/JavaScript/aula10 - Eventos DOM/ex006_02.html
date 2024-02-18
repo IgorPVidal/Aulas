@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM 2</title>
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background: rgb(44, 128, 44);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        [Interaja]
+    </div>
+    <script>
+        function clicar() {
+            var area = this
+            area.innerText = 'Clicou!'
+            area.style.background = 'crimson'
+        }
+        //Função anônima sendo atribuída à variável "entrar". Pode ser utilizada dessa forma também.
+        var entrar = function () { 
+            // Faz a mesma coisa que as funções "clicar()" e "sair()". 
+            // Apenas optei por usar uma forma de seleção diferente para acessar o elemento.
+            var area = this 
+            area.innerText = 'Entrou!'
+            area.style.background = 'blue'
+        }
+        function sair() {
+            var area = this
+            area.innerText = "Saiu!"
+            area.style.background = 'rgb(44, 128, 44)'
+        }
+        // Como a função "entrar" está dentro de uma variável, se os listeners forem adicionados antes dela ser
+        // instanciada, não irá funcionar.
+        // Por isso, passei os "addEventListener" aqui para baixo.
+        // Vou deixar assim mesmo, para servir como um lembrete desse detalhe.
+        var area = window.document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+    </script>
+</body>
+</html>

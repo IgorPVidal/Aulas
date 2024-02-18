@@ -1,0 +1,41 @@
+Document Object Model (DOM)
+É um modelo de objetos para documentos. 
+É um conjunto de objetos dentro do navegador que dá acesso aos componentes internos do site.
+
+Árvore DOM
+É uma árvore que compõe todos os objetos do seu site e suas "relações".
+Começa pela raiz, chamada "window", que é um objeto DOM que representa a janela do navegador.
+
+Dentro do window há vários outros objetos. Dentre eles:
+- location: Diz qual é a url do site, qual a página atual, qual foi a página anterior.
+- document: Engloba componentes do documento da página atual.
+- history: Guarda um histórico de navegação do site.
+
+
+Dentro do document:
+- html: Um objeto que contém a parte html do site. Possui os objetos head e body.
+head: meta, title.
+body: terá os componentes que criamos. Os parágrafos, divs, imagens, botões, etc.
+
+Existem 5 métodos de acesso a elementos da árvore DOM:
+- Marca (tag)
+- ID
+- Nome
+- Classe
+- Seletor (por CSS)
+
+Por Marca (ou tagname)
+getElementsByTagName()
+
+Por ID
+getElementById()
+
+Por Nome
+getElementsByName()
+
+Por Classe
+getElementsByClassName()
+
+Por Seletor
+querySelector()
+querySelectorAll()

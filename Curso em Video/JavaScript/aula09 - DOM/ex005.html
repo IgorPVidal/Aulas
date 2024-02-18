@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: crimson;
+            color:white;
+            font: normal 18pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Document Object Module</h1>
+    <p >Achou :D</p>
+    <p class="paragrafo-1">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <p id="paragrafo-2">Aqui vai o resultado</p>
+
+    <div id="msg">Clique em mim</div>
+    <script>
+        window.document.write('<br><br><br> Navegador: ' + window.navigator.appName)
+        window.document.write('<br><br> url: ' + window.document.URL)
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0] // Pega o primeiro parágrafo
+        document.write('<br><br> Texto do primeiro parágrafo: "' + p1.innerText + '"')
+        p1.style.color = 'black'
+        corpo.style.background = 'black'
+
+        var mensagem = window.document.getElementById('msg')
+        mensagem.style.background = 'green'
+        mensagem = window.document.querySelector('p#paragrafo-2')
+        mensagem.style.color = 'blue'
+        mensagem = window.document.querySelector('p.paragrafo-1')
+        mensagem.style.background = 'crimson'
+    </script>
+</body>
+</html>
