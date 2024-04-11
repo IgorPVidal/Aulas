@@ -1,0 +1,32 @@
+Podemos executar um arquivo em javascript no terminal usando o comando:
+"node arquivo.js"
+
+Condição Aninhada
+if (condição 1) {
+	[bloco 1]
+} else if (condição 2) {
+	[bloco 2]
+} else {
+	[bloco 3]
+}
+
+Condição Múltipla
+switch (expressão) {
+	case valor1:
+		[Bloco 1]
+		break
+	case valor2:
+		[Bloco 2]
+		break
+	case valor3:
+		[Bloco 3]
+		break
+	default:
+		[Bloco 4]
+		break
+}
+Obs: É preciso colocar o break ao fim de cada case, pois senão será executado 
+cada comando sequencialmente até encontrar um break. Isso é um detalhe que veio
+da Sintaxe da linguagem C.
+
+
